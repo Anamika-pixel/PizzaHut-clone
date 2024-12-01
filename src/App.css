@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html body{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+#logo-Pizza-Hut{
+    margin-left: 100px;
+}
+#sign-in{
+    text-decoration: underline dotted;
+    padding: 0px 0px 0px 760px;
+    color: #5c625d;
+    font-size: 14px;
+    font-family: "Montserrat", serif;
+}
+#sign-in:hover{
+    color: black;
+    text-decoration: none;
+}
+#home-image{
+    width: 100vw;
+    height: 330px;
+}
+#card-1{
+    background-color: white;
+    position: relative;
+    width: 10rem;
+    margin-left: 35%;
+    margin-top: -6%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+}
+#card-2{
+    background-color: white;
+    position: relative;
+    margin-left: 45.5%;
+    margin-top: -3%;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height: 50px;
+    width: 18rem;
+}
+#card-3{
+    background-color: white;
+    position: relative;
+    margin-left: 35%;
+    margin-top: -5px;
+    height: 200px;
+    border: none;
+    border-bottom: 2px solid #d3d3d3; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 450px;
+}
+#input-1{
+    border: none;
+    height: 50px;
+    width: 420px;
+    font-weight: 501;
+}
+#input-2{
+    border: none;
+    height: 50px;
+    width: 420px;
+    position: relative;
+    margin-left: 25px;
+}
+#input-2::placeholder {
+    color: rgb(78, 146, 223);
+}
+.icons{
+    display: flex;
+    align-items: center;  /* Vertically align items in the center */
+    gap: 8px; 
+}
+#del{
+    color:red;
+    margin:5px;
+    font-size:20px;
+}
+#store{
+    color:#808185;
+    margin: 5px;
+    font-size:20px;
+}
+.Popular{
+    font-size: 1.8rem;
+    font-family: "Raleway", serif;
+    font-weight: 600;
+    position: relative;
+    margin: -20px 0px 0px 37%;
+    background-color: white;
+    width: 400px;
+}
+#img1{
+    margin-left: -20%;
+}
+#img2{
+    margin-left: 13%;
+}
+#img3{
+    height: 300px;
+}
+#img4{
+    margin-left: 0%;
+}
+#images{
+    margin-top: 30px;
+}
+#text1{
+    font-size:11.5px;
+    background-color:black;
+    color:white;
+    width: 470px;
+    
+}
+#text2{
+    font-size:11.5px;
+    background-color:black;
+    color:white;
+    width: 500px;
+}
+#btn1{
+   background-color: green;  
+   color: white;
+   font-size: 20px; 
+   height: 50px;
+   width: 975px;
+   border-radius: 15px;
+   border:1px solid white;
+   margin-left: 17.5%;
+   margin-top: 2%;
+   margin-bottom: 25px;
+}
+#pizza{
+    color: #78838c;
+    font-size: 11px;
+    margin-left: 17%;
+}
+#fssai{
+    margin-left: 32%;
+}
+#License{
+    color: #78838c;
+    font-size: 11px;
+    margin-left: 22%;
+}
+
+@media (min-width: 380px) and (max-width: 480px) {
+    html body{
+        height: 100vh;
+        width: 100vw;
+        overflow-x: hidden;
+    }
+    #logo-Pizza-Hut{
+        margin-left: 0px;
+    }
+    #sign-in{
+        padding: 0px 0px 0px 275px;
+    }
+    #card-1{
+        margin-left: 17%;
+        margin-top: -18%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        width: 7rem;
+        font-size: 15px;
+    }
+    #del{
+        font-size:12px;
+    }
+    #card-2{
+        margin-left: 40.5%;
+        margin-top: -12%;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+        height: 50px;
+        width: 186px;
+        font-size: 15px;
+    }
+    #store{
+        font-size:15px;
+    }
+    #card-3{
+        position: relative;
+        margin-left: 17%;
+        margin-top: -5px;
+        height: 200px;
+        border: none;
+        border-bottom: 2px solid #d3d3d3; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 300px;
+    }
+    .Popular{
+        font-size: 1.4rem;
+        font-family: "Raleway", serif;
+        font-weight: 600;
+        position: relative;
+        margin: -20px 0px 0px 12%;
+        background-color: white;
+        width: 320px;
+    }
+    #img1{
+        display: none;
+    }
+    #img2{
+        height: 300px;
+        margin-left: -2%;
+    }
+    #text1{
+        margin-top: 0px;
+        margin-left: -3%;
+    }
+    #img3{
+        margin-top: 7%;
+        margin-left: -2%;
+    }
+    #text2{
+        margin-top: 0px;
+        margin-left: -3%;
+    }
+    #btn1{
+        width: 460px;
+        border-radius: 15px;
+        border:1px solid white;
+        margin-left: 0.5%;
+        margin-top: 20px;
+     }
+     #img4{
+        display: none;
+    }
+    #Order{
+        margin-left: -29%;
+    }
+    #About{
+        margin-left: 35%;
+    }
+    #policies{
+        margin-left: 35%;
+    }
+    #pizzaHut{
+        margin-left: 35%;
+    }
+    #img1{
+        display: none;
+    }
+    #img2{
+        display: none;
+    }
+    #Help{
+        margin-top: 270px;
+    }
+    #Follow{
+        margin-top: 300px;
+        margin-left: 30%;
+    }
+    #pizza{
+        margin-left: 0%;
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #fssai{
+        margin-top: 10px;
+        margin-left: 40%;
+    }
+    #License{
+        margin-left: 10%;
+    }
+}
