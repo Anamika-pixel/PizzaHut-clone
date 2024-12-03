@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Row } from 'react-bootstrap'
-import AppStore from '../images/AppStore.svg'
+import AppStore from '../images/Appstore.svg'
 import googleplay from '../images/googleplay.png'
 import fssai from '../images/fssai.webp'
 
