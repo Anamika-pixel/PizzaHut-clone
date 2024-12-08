@@ -1,8 +1,8 @@
 import './App.css'
 import Footer from './Components/Footer';
 import Header from './Components/Header'
-import Home from './Components/Home';
-import MostPopular from './Components/MostPopular';
+import HeroSection from './Components/HeroSection';
+import MenuSection from './Components/MenuSection';
 
 
 
@@ -13,8 +13,8 @@ function App() {
     <>
 
       <Header />
-      <Home />
-      <MostPopular />
+      <HeroSection />
+      <MenuSection />
       <Footer />
     </>
   )

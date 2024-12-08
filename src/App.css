@@ -149,7 +149,7 @@ html body{
     margin-left: 22%;
 }
 
-@media (min-width: 380px) and (max-width: 480px) {
+/* @media (min-width: 380px) and (max-width: 480px) {
     html body{
         height: 100vh;
         width: 100vw;
@@ -269,4 +269,17 @@ html body{
     #License{
         margin-left: 10%;
     }
+} */
+
+
+@media only screen and (max-width: 768px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .card img {
+    width: 100%;
+    height: auto;
+  }
 }
